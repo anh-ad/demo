@@ -1,0 +1,58 @@
+<!-- Complete Project Details at: https://RandomNerdTutorials.com/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP Firebase App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script>
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  </script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+  <script>
+    // REPLACE WITH YOUR web app's Firebase configuration
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAc-39LIE5wH_e3cjVO8J9GEACANSREV2k",
+      authDomain: "fir-11805.firebaseapp.com",
+      databaseURL: "https://fir-11805-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "fir-11805",
+      storageBucket: "fir-11805.firebasestorage.app",
+      messagingSenderId: "180122408708",
+      appId: "1:180122408708:web:ff0e862ef59b84fde8a251"
+    };
+
+    // Initialize Firebase
+    // const app = initializeApp(firebaseConfig);
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+  </script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+  <h1>WEB APP ĐIỀU KHIỂN ĐÈN</h1>
+  <p class="trangthai">TRẠNG THÁI: <span id="status"></span></p>
+  <div class="image-button">
+    <button class="custom-button" id="sendButton">MỞ</button>
+    <p></p>
+    <button class="custom-button1" id="sendButton1">TẮT</button>
+  </div>
+
+</body>
+
+</html>

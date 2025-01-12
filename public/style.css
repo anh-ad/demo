@@ -1,0 +1,56 @@
+
+body {
+    background-image: url('nha-thong-minh.jpg');
+    height: 100%;
+    font-family: Arial, sans-serif;
+    /* background-color: pink; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: white;
+}
+
+.custom-button {
+    background-color: #4CAF50; /* Màu nền */
+    border: none;             /* Xóa viền */
+    color: black;             /* Màu chữ */
+    padding: 10px 50px;       /* Khoảng cách bên trong nút */
+    text-align: center;       /* Canh giữa nội dung */
+    text-decoration: none;    /* Xóa gạch chân */
+    display: inline-block;    /* Hiển thị theo khối nội dòng */
+    font-size: 16px;          /* Kích thước chữ */
+    border-radius: 5px;       /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng khi di chuột */
+    cursor: pointer;          /* Thay đổi con trỏ khi di chuột */
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+.custom-button1 {
+    background-color: #4CAF50; /* Màu nền */
+    border: none;             /* Xóa viền */
+    color: black;             /* Màu chữ */
+    padding: 10px 50px;       /* Khoảng cách bên trong nút */
+    text-align: center;       /* Canh giữa nội dung */
+    text-decoration: none;    /* Xóa gạch chân */
+    display: inline-block;    /* Hiển thị theo khối nội dòng */
+    font-size: 16px;          /* Kích thước chữ */
+    border-radius: 5px;       /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng khi di chuột */
+    cursor: pointer;          /* Thay đổi con trỏ khi di chuột */
+}
+
+.custom-button1:hover {
+    background-color: red;
+}
+
+.trangthai{
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
